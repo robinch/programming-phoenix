@@ -44,7 +44,9 @@ defmodule Rumbl.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:mix_test_watch, "~> 0.9.0", only: :test, runtime: false}
+      {:mix_test_watch, "~> 0.9.0", only: :test, runtime: false},
+      {:comeonin, "~> 4.1"},
+      {:pbkdf2_elixir, "~> 0.12"}
     ]
   end
 
